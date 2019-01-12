@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle programming-paladins",
+        "command": "programming-paladins:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "programming-paladins",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "programming-paladins:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
